@@ -79,13 +79,11 @@ Include your project's license here (e.g., MIT, GPL-3).
 
 Maintainer: `Fuki-Kudoh` (or add email/contact details).
 
-**Example data**
+**Example script**
 
-- `data/example_tpm.csv`: Small example expression matrix (genes × samples) included to demonstrate usage.
-- `images/example_heatmap.svg`: A placeholder example heatmap generated from the CSV (also included in `images/`).
-- `examples/generate_example_heatmap.R`: Small R script which reads the CSV and generates `images/example_heatmap.png` and `images/example_heatmap.svg` using `pheatmap`.
+- `examples/generate_example_heatmap.R`: A small R script that demonstrates how to read an expression matrix and produce a heatmap using `pheatmap`. The script is intended as a usage example for users who supply their own expression CSV.
 
-To regenerate the example heatmap locally:
+To run the example script (point it at your own data):
 
 ```bash
 # from the repository root
